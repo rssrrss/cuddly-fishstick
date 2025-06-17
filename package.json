@@ -1,0 +1,24 @@
+{
+  "name": "cuddly-fishstick-x",
+  "version": "0.0.42",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "crispy-dollop-x": "^0.0.13"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.7"
+  }
+}
